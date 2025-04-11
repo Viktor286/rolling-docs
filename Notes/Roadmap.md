@@ -5,3 +5,4 @@
 - revisit reference system throughout RollingDocs
 - model-based version-specific list of allowed external dependencies and packages
 - Add more Examples/
+- Add templates for Guardian to be able to create Roles and Tasks in interview & autonomous mode

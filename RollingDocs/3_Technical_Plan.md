@@ -8,10 +8,10 @@ This document outlines the technical strategy, architecture, and standards for d
 
 ## 2. Core Technical Principles
 
-* **Accessibility:** Strive for WCAG 2.1 Level AA compliance throughout the platform. Specific implementation guidelines are detailed in Section 5 and potentially expanded in `Roles/Developer/Rulebook.md`.
+* **Accessibility:** Strive for WCAG 2.1 Level AA compliance throughout the platform. Specific implementation guidelines are detailed in Section 5.
 * **Mobile First Design:** Implement responsive design techniques with mobile viewports as the baseline. Details in Section 6.
 * **Component & Module Isolation:** Design UI components (`src/components/`) and backend modules (when developed) to be well-encapsulated with clear interfaces.
-* **Code Quality:** Adhere to SOLID/GRASP principles where applicable. Enforce standards via static analysis tools defined in `4_Global_Tooling.md` and detailed standards in `Roles/Developer/Rulebook.md`. Prioritize readability and maintainability.
+* **Code Quality:** Adhere to SOLID/GRASP principles where applicable. Enforce standards via static analysis tools defined in `4_Global_Tooling.md`. Prioritize readability and maintainability.
 * **Performance:** Optimize for fast load times and responsiveness using modern web techniques. Details in Section 7.
 
 ## 3. Project Architecture
@@ -41,7 +41,7 @@ This document outlines the technical strategy, architecture, and standards for d
 
 * **Unit & Integration Tests:** (Define chosen framework - e.g., Vitest, Jest - and approach. Vitest was mentioned in original description but needs adding). Place tests alongside source code (`*.test.ts`).
 * **End-to-End (E2E) Tests:** (Define chosen framework - e.g., Playwright, Cypress - and strategy).
-* **QA Process:** Mandatory QA checks (`pnpm project:qa`) defined in `4_Global_Tooling.md` must pass for all development tasks. Specific QA procedures detailed in `Roles/QA/Instructions.md` & `Rulebook.md`.
+* **QA Process:** Mandatory QA checks (`pnpm project:qa`) defined in `4_Global_Tooling.md` must pass for all development tasks. Specific QA procedures detailed in `Roles/QA/Instructions.md`.
 
 ## 5. Accessibility Implementation (WCAG 2.1 AA Strategy)
 
@@ -54,7 +54,6 @@ This document outlines the technical strategy, architecture, and standards for d
 * **Images:** Provide meaningful `alt` text for informative images; use empty `alt=""` for decorative images.
 * **Headings:** Maintain a logical heading structure (`h1` through `h6`).
 * **Reduced Motion:** Respect `prefers-reduced-motion` media query for animations.
-  *(Refer to `Roles/Developer/Rulebook.md` for more detailed implementation guidelines)*.
 
 ## 6. Responsive Design & Mobile First Approach
 

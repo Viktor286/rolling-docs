@@ -1,6 +1,8 @@
+![RollingDocs banner](Assets/rd-banner-temp.png)
+
 # RollingDocs: An Experimental Framework for Human-AI Collaborative Development
 
-**Repository:** [`https://github.com/Viktor286/rolling-docs`](https://github.com/Viktor286/rolling-docs)
+**Author:** [Victor Anderson](https://www.linkedin.com/in/justviktor/)
 
 [![Status](https://img.shields.io/badge/status-experimental-orange)](https://github.com/Viktor286/rolling-docs)
 
@@ -8,9 +10,14 @@
 
 **RollingDocs is an experimental, role-based, document-driven, Human-AI collaborative system of development orchestration.**
 
-This framework explores a structured approach to managing software development projects where contributions may come from both human experts and specialized AI models. It utilizes a system of version-controlled markdown documents stored directly within the project repository to serve as a shared knowledge base, communication protocol, and operational guide.
+This framework explores a structured approach to managing software development projects where contributions may come from both Human experts and specialized AI models. It utilizes a system of version-controlled markdown documents stored directly within the project repository to serve as a shared knowledge base, communication protocol, and operational guide.
 
-It could be used for improved workflow of agentic LLM tools like [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview), [Cline](https://cline.bot/), [Aider](https://aider.chat/)
+It could be used for improved workflow of agentic LLM tools like:
+- [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
+- [Aider](https://aider.chat/)
+- [Cline](https://cline.bot/) / [Roo](https://roocode.com/)
+- [Google (ADK)](https://google.github.io/adk-docs/)
+- [crewAI](https://www.crewai.com/)
 
 ## The Problem Space
 
@@ -18,8 +25,8 @@ Modern AI models offer significant potential in software development, but effect
 
 * **Context Management:** AI models often operate in stateless sessions, requiring a reliable way to load necessary project context each time.
 * **Process Adherence:** Ensuring AI contributions consistently follow project standards, architecture, and quality checks.
-* **Collaboration:** Facilitating seamless teamwork and handoffs between human and AI contributors.
-* **Interchangeability:** Creating a system where roles can be flexibly filled by either humans or AI based on the task requirements and capabilities.
+* **Collaboration:** Facilitating seamless teamwork and handoffs between Human and AI contributors.
+* **Interchangeability:** Creating a system where roles can be flexibly filled by either Humans or AI based on the task requirements and capabilities.
 
 RollingDocs attempts to address these challenges through structured documentation and defined processes.
 
@@ -27,7 +34,7 @@ RollingDocs attempts to address these challenges through structured documentatio
 
 * **Role-Based:** Work is defined by abstract **Roles** (e.g., Developer, QA, PM, Framework Guardian), each with documented responsibilities (`Description.md`) and workflows (`Instructions.md`).
 * **Document-Driven:** All necessary context – project goals, technical plans, standards, tooling, task specifics – resides in version-controlled markdown files within the `RollingDocs/` directory.
-* **Human-AI Interchangeability:** By defining roles via process and documentation interfaces, any capable contributor (human or AI) can fulfill a role.
+* **Human-AI Interchangeability:** By defining roles via process and documentation interfaces, any capable contributor (Human or AI) can fulfill a role.
 * **Task Management via File System:** Individual work units (**Task Specifications**) are managed as markdown files moved through status folders (`RollingDocs/Tasks/Planned/`, `Progress/`, `Completed/`).
 * **Integrated QA:** Quality assurance checks are a mandatory, defined step in relevant workflows.
 * **Framework Guardian:** A dedicated role maintains the integrity and evolution of the RollingDocs framework itself.

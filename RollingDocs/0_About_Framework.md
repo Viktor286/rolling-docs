@@ -2,7 +2,12 @@
 
 A role-based, document-driven, Human-AI collaborative system of development orchestration.
 
-Could be used for improved workflow of agentic LLM tools like [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview), [Cline](https://cline.bot/), [Aider](https://aider.chat/)
+It could be used for improved workflow of agentic LLM tools like:
+- [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
+- [Aider](https://aider.chat/)
+- [Cline](https://cline.bot/) / [Roo](https://roocode.com/)
+- [Google (ADK)](https://google.github.io/adk-docs/)
+- [crewAI](https://www.crewai.com/)
 
 **TL;DR**
 
@@ -75,7 +80,7 @@ RollingDocs uses a cascaded structure primarily within this directory:
 
 * **Roles:** Abstract definitions of functions within the project (e.g., Developer, QA, PM, Framework Guardian). Each role has clearly documented responsibilities (`Description.md`) and processes (`Instructions.md`).
 * **Task Specifications (`TASK_...md`):** The atomic unit of work. Each Task is defined in its own markdown file using the template in `Templates/`. Key elements include Scope, Acceptance Criteria (AC), and Deliverables. Tasks move between `Tasks/Planned/`, `Tasks/Progress/`, and `Tasks/Completed/` folders to indicate status.
-* **Framework Guardian:** A crucial role responsible for maintaining the RollingDocs framework documents themselves. Changes to guides, rulebooks, templates, or core project/technical docs require a Task assigned to the Guardian for review and implementation, ensuring process integrity. The Guardian also aids onboarding and suggests framework improvements.
+* **Framework Guardian:** A crucial role responsible for maintaining the RollingDocs framework documents themselves. Changes to guides, templates, or core project/technical docs require a Task assigned to the Guardian for review and implementation, ensuring process integrity. The Guardian also aids onboarding and suggests framework improvements.
 * **Human-AI Interchangeability:** Enabled by the focus on documented processes. If a contributor (human or AI) can understand and follow the `Instructions.md` for a role and interact with the required documents (e.g., read a Task Specification, run commands from `4_Global_Tooling.md`, update Task location), they can fulfill that role. This allows leveraging the best contributor for the task, promoting hybrid teams. (Analogous to the Dependency Inversion Principle in SOLID).
 * **AI-Specific Instructions (`[AI: ...]`)**: Where necessary for extreme clarity for AI contributors, instructions may be embedded within markdown using the `[AI: ...]` syntax. Any AI operating within this framework MUST be bootstrapped (e.g., via an initial `AI_Bootstrap.md` context) to recognize and strictly follow these specific directives.
 

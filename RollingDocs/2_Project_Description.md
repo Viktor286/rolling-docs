@@ -36,7 +36,7 @@ All contributors MUST adhere to these high-level principles:
 
 * **Mobile First:** Design and implementation must prioritize smaller screen sizes and progressively enhance for larger ones. (See `3_Technical_Plan.md` for responsive design strategy).
 * **Accessibility First:** Strive for WCAG 2.1 AA compliance in all aspects of the platform. (See `3_Technical_Plan.md` for accessibility strategy).
-* **Code Quality:** Emphasize simple, concise, maintainable, well-isolated, and encapsulated code. (Specific standards are detailed in role-specific documents like `Roles/Developer/Rulebook.md`).
+* **Code Quality:** Emphasize simple, concise, maintainable, well-isolated, and encapsulated code.
 * **User Experience:** Focus on creating an intuitive, engaging, and seamless experience for the end-user.
 * **RollingDocs Adherence:** Strictly follow the workflows, communication protocols, and documentation standards defined by the RollingDocs framework. (Start with `1_Onboarding_Guide.md`).
 

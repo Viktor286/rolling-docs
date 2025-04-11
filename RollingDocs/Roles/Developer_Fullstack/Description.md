@@ -14,8 +14,8 @@ This Role is responsible for the design, implementation, testing (unit/integrati
 
 * Translate assigned Task Specifications into clean, efficient, and maintainable code.
 * Adhere strictly to the architectural guidelines defined in `../../3_Technical_Plan.md`.
-* Follow coding standards, patterns, and best practices detailed in `Rulebook.md`.
-* Implement necessary unit and integration tests according to the project's testing strategy (see `../../3_Technical_Plan.md` and `Rulebook.md`).
+* Follow coding standards, patterns, and best practices detailed in `Instructions.md`.
+* Implement necessary unit and integration tests according to the project's testing strategy (see `../../3_Technical_Plan.md` and `Instructions.md`).
 * Perform local development testing and debugging.
 * Ensure all code passes the mandatory QA checks defined in `../../4_Global_Tooling.md` before completing a task.
 * Manage the status of assigned Task Specification files by moving them through the `../../Tasks/` subdirectories (`Planned/` -> `Progress/` -> `Completed/`).

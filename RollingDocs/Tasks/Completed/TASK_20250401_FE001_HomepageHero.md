@@ -47,7 +47,6 @@
 * Implement using React Server Components where possible.
 * Use Tailwind CSS for styling according to project theme (`../../3_Technical_Plan.md`).
 * Optimize images using Next.js `<Image>` component.
-* Refer to `../../Roles/Developer/Rulebook.md` for coding standards.
 
 ---
 

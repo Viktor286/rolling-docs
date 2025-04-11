@@ -2,7 +2,7 @@
 
 This document outlines the step-by-step process for the Developer - Fullstack role operating within the RollingDocs framework.
 
-*(Refer to `Description.md` for role scope/responsibilities and `Rulebook.md` for detailed standards.)*
+*(Refer to `Description.md` for role scope/responsibilities)*
 [AI: Strict adherence to these steps, especially QA checks and status updates, is mandatory.]
 
 ## Development Cycle Steps:
@@ -15,17 +15,16 @@ This document outlines the step-by-step process for the Developer - Fullstack ro
 2.  **Understand & Plan:**
     * Thoroughly read the entire Task Specification (`TASK_...md`) in the `Progress/` folder.
     * Review all linked sections in `../../2_Project_Description.md`, `../../3_Technical_Plan.md`, and any other referenced documents.
-    * Consult `Rulebook.md` for relevant coding standards, patterns, or specific technical guidelines.
     * Plan your implementation approach, considering component design, data flow, testing strategy, and potential interactions.
     * [AI: Identify any ambiguities or required interactions with other roles (e.g., Security, Content) based on the Task Specification and request clarification or initiate consultation if necessary, following defined protocols.]
 
 3.  **Implement Code:**
     * Write or modify code within the `src/` directory (or other designated source code locations).
-    * Strictly adhere to the architecture (`../../3_Technical_Plan.md`), coding standards (`Rulebook.md`), and the specific requirements and Acceptance Criteria (AC) defined in the Task Specification.
+    * Strictly adhere to the architecture (`../../3_Technical_Plan.md`), and the specific requirements and Acceptance Criteria (AC) defined in the Task Specification.
     * Use path aliases (`@/*`) as specified in `../../4_Global_Tooling.md`.
 
 4.  **Local Testing:**
-    * Implement and run necessary unit and/or integration tests alongside your code, as required by the project's testing strategy (`../../3_Technical_Plan.md`) and `Rulebook.md`.
+    * Implement and run necessary unit and/or integration tests alongside your code, as required by the project's testing strategy (`../../3_Technical_Plan.md`).
     * Perform manual testing during development as needed to verify functionality.
 
 5.  **Apply Code Standards:**
@@ -49,13 +48,13 @@ This document outlines the step-by-step process for the Developer - Fullstack ro
     * Stage **all** relevant changes using `git add`. This MUST include:
         * All new or modified source code files.
         * The Task Specification file now located in `../../Tasks/Completed/`.
-    * Commit the changes (follow commit conventions if defined in `Rulebook.md` or `../../4_Global_Tooling.md`).
+    * Commit the changes (`../../4_Global_Tooling.md`).
     * Ensure all other deliverables listed in the Task Specification are met and accessible (e.g., links to deployed previews if required).
 
 10. **Notify / Handoff:**
-    * Follow any notification or handoff procedures defined in this document or the `Rulebook.md` (e.g., notify the QA role that a task is ready for verification, update a project management tool if used).
+    * Follow any notification or handoff procedures defined in this document(e.g., notify the QA role that a task is ready for verification, update a project management tool if used).
 
 ---
 
-*Remember to consult `Rulebook.md` for detailed standards and `../../4_Global_Tooling.md` for command references.*
+*Remember to consult `../../4_Global_Tooling.md` for detailed standards and command references.*
 
