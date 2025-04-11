@@ -1,4 +1,4 @@
-![RollingDocs banner](Assets/rd-banner-temp.png)
+![RollingDocs banner](Assets/rd-banner-temp.jpg)
 
 # RollingDocs: An Experimental Framework for Human-AI Collaborative Development
 
