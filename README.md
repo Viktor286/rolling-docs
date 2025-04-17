@@ -8,7 +8,9 @@
 
 ## Introduction
 
-**RollingDocs is an experimental, role-based, document-driven, Human-AI collaborative system of development orchestration.**
+**RollingDocs is an experimental, role-based, document-driven, Human-AI team & collaborative system of development orchestration.**
+
+_On a very high-level, it's a combination of Project/Team Management where everything is a document, everything is a prompt._
 
 This framework explores a structured approach to managing software development projects where contributions may come from both Human experts and specialized AI models. It utilizes a system of version-controlled markdown documents stored directly within the project repository to serve as a shared knowledge base, communication protocol, and operational guide.
 
@@ -18,6 +20,7 @@ It could be used for improved workflow of agentic LLM tools like:
 - [Cline](https://cline.bot/) / [Roo](https://roocode.com/)
 - [Google (ADK)](https://google.github.io/adk-docs/)
 - [crewAI](https://www.crewai.com/)
+- [OpenAI Codex CLI](https://github.com/openai/codex)
 
 ## The Problem Space
 
