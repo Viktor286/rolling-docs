@@ -15,11 +15,10 @@ This framework explores a structured approach where project management, architec
 It is designed to improve the workflow of agentic LLM tools like:
 
 - [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
-- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 - [OpenAI Codex CLI](https://github.com/openai/codex)
-- [Aider](https://aider.chat/)
-- [Cline](https://cline.bot/) / [Roo](https://roocode.com/)
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)
 - [Cursor](https://github.com/cursor/cursor)
+- [Cline](https://cline.bot/) / [Roo](https://roocode.com/)
 - and others...
 
 ## The Problem Space
