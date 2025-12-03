@@ -1,4 +1,4 @@
-# SGR: Semantic Graph Router: Document-driven operating system for Human-AI development
+# SGR: Semantic Graph Router. Document-driven operating system for Human-AI development
 
 **Author:** [Victor Anderson](https://www.linkedin.com/in/justviktor/)
 
