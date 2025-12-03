@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document lists common tools, commands, environment details, and conventions relevant to **all roles** working on the Space Travel Booking Platform within the RollingDocs framework. Specific roles may have additional tooling details or nuanced usage instructions documented in their respective `Roles/[RoleName]/Tooling.md` or `Roles/[RoleName]/Instructions.md` files.
+This document lists common tools, commands, environment details, and conventions relevant to **all roles** working on the Space Travel Booking Platform within the SGR framework. Specific roles may have additional tooling details or nuanced usage instructions documented in their respective `Roles/[RoleName]/Tooling.md` or `Roles/[RoleName]/Instructions.md` files.
 
 *(Refer to `1_Onboarding_Guide.md` for the overall workflow context and `3_Technical_Plan.md` for architectural context.)*
 
@@ -60,7 +60,7 @@ Execute these commands from the project root directory (`coding-challenge-march/
 
 * **Command:** `pnpm project:qa`
 * **Action:** This script runs `project:check` and then `pnpm build`.
-* **Requirement:** This command **MUST pass successfully** before any task involving code changes can be considered complete (i.e., before moving a Task Specification to `RollingDocs/Tasks/Completed/`).
+* **Requirement:** This command **MUST pass successfully** before any task involving code changes can be considered complete (i.e., before moving a Task Specification to `SGR/Tasks/Completed/`).
 * **Configuration Note:** Ensure TypeScript build error checking is enabled (`typescript.ignoreBuildErrors: false` in `next.config.ts`) during QA phases, as recommended in `3_Technical_Plan.md`.
 
 ## 5. Version Control (Git)
@@ -68,7 +68,7 @@ Execute these commands from the project root directory (`coding-challenge-march/
 * **System:** Git is assumed.
 * **Staging:** Use `git add [files]` to stage changes. Remember to include:
     * All modified/new source code files (`src/`, etc.).
-    * The moved Task Specification file (now in `RollingDocs/Tasks/Completed/`).
+    * The moved Task Specification file (now in `SGR/Tasks/Completed/`).
     * Any other documentation files updated as part of the task deliverables. *(Based on workflow)*
 * **Branching/Commits:** (Define project-specific strategy here or reference a dedicated section/document if complex. E.g., feature branches, Conventional Commits).
 

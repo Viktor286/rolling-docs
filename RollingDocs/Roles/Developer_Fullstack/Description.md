@@ -28,7 +28,7 @@ This Role is responsible for the design, implementation, testing (unit/integrati
 * Provides completed code fulfilling Task Specification deliverables.
 * Interacts with QA role based on testing feedback (e.g., receiving bug reports via new Task Specifications).
 * May consult with Security Advisor or other specialized roles based on Task requirements.
-* Requests clarification or proposes changes to the RollingDocs framework via Tasks assigned to the Framework Guardian role.
+* Requests clarification or proposes changes to the SGR framework via Tasks assigned to the Framework Guardian role.
 
 ## 5. Required Skills & Knowledge
 
@@ -37,4 +37,4 @@ This Role is responsible for the design, implementation, testing (unit/integrati
 * Experience with unit/integration testing practices and tools (to be detailed in `../../3_Technical_Plan.md`).
 * Proficiency with version control systems (Git - see `../../4_Global_Tooling.md`).
 * Ability to understand and accurately implement requirements from Task Specifications.
-* Strong commitment to adhering to the RollingDocs framework processes (`../../1_Onboarding_Guide.md`, `Instructions.md`).
+* Strong commitment to adhering to the SGR framework processes (`../../1_Onboarding_Guide.md`, `Instructions.md`).

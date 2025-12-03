@@ -19,7 +19,7 @@ The platform aims to provide the following key functionalities:
 3.  **Accommodation Information & Recommendations:** Provide details on available space accommodations (orbital stations, lunar hotels) and potentially suggest options based on user preferences or selected travel packages.
 4.  **User Dashboard:** Offer a personalized portal for registered users to view and manage their bookings, see countdowns to launch, track loyalty status or rewards, and access travel information.
 
-*(Specific features and their implementation details will be defined in individual Task Specifications (`TASK_...md`) located in `RollingDocs/Tasks/`.)*
+*(Specific features and their implementation details will be defined in individual Task Specifications (`TASK_...md`) located in `SGR/Tasks/`.)*
 
 ## 3. Component Areas (Initial Definition)
 
@@ -38,6 +38,6 @@ All contributors MUST adhere to these high-level principles:
 * **Accessibility First:** Strive for WCAG 2.1 AA compliance in all aspects of the platform. (See `3_Technical_Plan.md` for accessibility strategy).
 * **Code Quality:** Emphasize simple, concise, maintainable, well-isolated, and encapsulated code.
 * **User Experience:** Focus on creating an intuitive, engaging, and seamless experience for the end-user.
-* **RollingDocs Adherence:** Strictly follow the workflows, communication protocols, and documentation standards defined by the RollingDocs framework. (Start with `1_Onboarding_Guide.md`).
+* **SGR Adherence:** Strictly follow the workflows, communication protocols, and documentation standards defined by the SGR framework. (Start with `1_Onboarding_Guide.md`).
 
 *(This document defines WHAT we are building. Refer to `3_Technical_Plan.md` for HOW it's built technically and role-specific documents under `Roles/` for detailed process instructions.)*

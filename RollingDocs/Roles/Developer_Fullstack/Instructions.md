@@ -1,6 +1,6 @@
 # Role Instructions: Developer - Fullstack Workflow
 
-This document outlines the step-by-step process for the Developer - Fullstack role operating within the RollingDocs framework.
+This document outlines the step-by-step process for the Developer - Fullstack role operating within the SGR framework.
 
 *(Refer to `Description.md` for role scope/responsibilities)*
 [AI: Strict adherence to these steps, especially QA checks and status updates, is mandatory.]

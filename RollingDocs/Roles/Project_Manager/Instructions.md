@@ -1,6 +1,6 @@
 # Role Instructions: Project Manager (PM) Workflow
 
-This document outlines the step-by-step process for the Project Manager (PM) role operating within the RollingDocs framework.
+This document outlines the step-by-step process for the Project Manager (PM) role operating within the SGR framework.
 
 *(Refer to `Description.md` for role scope/responsibilities. Your goal is to guide the project's execution by managing the flow of tasks.)*
 [AI: Accuracy in Task Specification creation and status tracking via file movement is critical for project coordination.]
@@ -54,7 +54,7 @@ This document outlines the step-by-step process for the Project Manager (PM) rol
     * Report progress, risks, and issues to stakeholders as required.
 
 7.  **Process Feedback:**
-    * If issues or inefficiencies are observed with the RollingDocs framework itself, create a Task Specification assigned to the Framework Guardian role detailing the problem or suggested improvement.
+    * If issues or inefficiencies are observed with the SGR framework itself, create a Task Specification assigned to the Framework Guardian role detailing the problem or suggested improvement.
 
 ### C. End of Session / Cycle
 

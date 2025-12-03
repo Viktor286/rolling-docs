@@ -2,7 +2,7 @@
 
 - Conduct review & refined session with large-context LLM
 - Create Examples/ folder and extract "Space Travel Booking Platform 🚀" there. Create abstract template for core documents instead
-- revisit reference system throughout RollingDocs
+- revisit reference system throughout SGR
 - model-based version-specific list of allowed external dependencies and packages
 - Add more Examples/
 - Add templates for Guardian to be able to create Roles and Tasks in interview & autonomous mode

@@ -6,7 +6,7 @@ Project Manager (PM)
 
 ## 2. Scope
 
-This Role is responsible for **planning, prioritizing, assigning, and tracking work** within the RollingDocs framework. The PM translates high-level project goals (from `../../2_Project_Description.md`) into actionable Task Specifications, manages the task lifecycle through the `../../Tasks/` subdirectories, monitors progress, facilitates communication between roles, and ensures alignment with project objectives and timelines.
+This Role is responsible for **planning, prioritizing, assigning, and tracking work** within the SGR framework. The PM translates high-level project goals (from `../../2_Project_Description.md`) into actionable Task Specifications, manages the task lifecycle through the `../../Tasks/` subdirectories, monitors progress, facilitates communication between roles, and ensures alignment with project objectives and timelines.
 
 ## 3. Core Responsibilities
 
@@ -18,7 +18,7 @@ This Role is responsible for **planning, prioritizing, assigning, and tracking w
 * **Communication & Facilitation:** Act as a communication hub between different roles, helping to resolve dependencies or blockers identified during task execution.
 * **Status Reporting:** Compile and communicate project status and progress based on the state of tasks in the `../../Tasks/` directories and deliverables in `../../STATUS_Completed_Deliverables.md`. *(Note: We removed Status_Completed.md - reporting is based on the `Completed/` folder)*. *Correction:* Reporting based on files in `../../Tasks/Completed/`.
 * **Scope Management:** Help ensure work performed aligns with the defined scope in Task Specifications and overall project goals.
-* **Process Adherence:** Understand and support the RollingDocs framework, potentially providing feedback on its effectiveness to the Framework Guardian role.
+* **Process Adherence:** Understand and support the SGR framework, potentially providing feedback on its effectiveness to the Framework Guardian role.
 
 ## 4. Key Interactions
 
@@ -35,7 +35,7 @@ This Role is responsible for **planning, prioritizing, assigning, and tracking w
 * Ability to break down complex requirements into manageable tasks.
 * Excellent communication and facilitation skills.
 * Thorough understanding of the project's goals (`../../2_Project_Description.md`) and domain.
-* Familiarity with the RollingDocs framework (`../../1_Onboarding_Guide.md`) and task management workflow.
+* Familiarity with the SGR framework (`../../1_Onboarding_Guide.md`) and task management workflow.
 * Ability to prioritize effectively.
 * (Optional) Experience with Agile methodologies.
 * (Optional) Familiarity with the project's technology stack at a high level (`../../3_Technical_Plan.md`).

@@ -1,12 +1,12 @@
-# RollingDocs: Document-driven operating system for Human-AI development
+# SGR: Semantic Graph Router: Document-driven operating system for Human-AI development
 
 **Author:** [Victor Anderson](https://www.linkedin.com/in/justviktor/)
 
-[![Status](https://img.shields.io/badge/status-experimental-orange)](https://github.com/Viktor286/rolling-docs)
+[![Status](https://img.shields.io/badge/status-experimental-orange)](https://github.com/Viktor286/semantic-graph-router.git)
 
 ## Introduction
 
-**RollingDocs is an experimental, role-based, document-driven operating system for Human-AI development.**
+**SGR is an experimental, role-based, document-driven operating system for Human-AI development.**
 
 At a high level, it transforms a code repository into a self-managing database where **everything is a document** and **everything is a prompt**.
 
@@ -28,12 +28,12 @@ Modern AI models offer significant potential in software development, but effect
 * **Context Amnesia:** AI models operate in stateless sessions. They often lack the "Big Picture" stored in external tools like Jira or Trello.
 * **Process Adherence:** Ensuring AI contributions consistently follow project standards, architecture, and quality checks without constant human hand-holding.
 * **Management Overhead:** Humans often spend more time prompting and organizing AI outputs than coding.
-* **True Interchangeability:** Most workflows treat AI as a "tool" and Humans as "managers." RollingDocs aims for a system where **roles (including Project Management and QA) can be flexibly filled by either Humans or AI Agents.**
+* **True Interchangeability:** Most workflows treat AI as a "tool" and Humans as "managers." SGR aims for a system where **roles (including Project Management and QA) can be flexibly filled by either Humans or AI Agents.**
 
-## Key Concepts of RollingDocs
+## Key Concepts of SGR
 
 * **Role-Based Abstraction:** Work is defined by abstract **Roles** (e.g., *Developer*, *QA*, *Product Owner*, *Framework Guardian*). Each role has a `Description.md` and `Instructions.md`. An AI agent simply reads the instructions to "become" that role.
-* **Document-Driven Context:** All necessary context—requirements, status, and architectural decisions—resides in the `RollingDocs/` directory. The file system *is* the source of truth.
+* **Document-Driven Context:** All necessary context—requirements, status, and architectural decisions—resides in the `SGR/` directory. The file system *is* the source of truth.
 * **Agentic Project Management:** The **Project Manager** and **Framework Guardian** roles are designed to be fulfillable by AI. This means an AI agent can be responsible for organizing the Kanban board, cleaning up stale files, and enforcing repository rules.
 * **Task Management via File System:** Individual work units (**Task Specifications**) are managed as markdown files. Moving a file from `Planned/` to `Progress/` is a native file-system operation, allowing agents to manage state without external API integrations.
 * **Integrated QA:** Quality assurance checks are a mandatory, defined step in the workflow, executable by a specialized QA Agent.
@@ -41,7 +41,7 @@ Modern AI models offer significant potential in software development, but effect
 
 ## Structure Overview
 
-The core framework documentation resides within the `/RollingDocs` directory:
+The core framework documentation resides within the `/SGR` directory:
 
 * `0_About_Framework.md`: The "Constitution" of the project—philosophy, principles, and structure.
 * `1_Onboarding_Guide.md`: The starting point for any contributor (Human or Artificial).
@@ -50,20 +50,20 @@ The core framework documentation resides within the `/RollingDocs` directory:
 * `Templates/`: Boilerplate for creating new Task Specifications.
 * `Tasks/`: The file-system Kanban board containing `Planned/`, `Progress/`, and `Completed/` folders.
 
-*(For a full breakdown, please see `RollingDocs/0_About_Framework.md`)*
+*(For a full breakdown, please see `SGR/0_About_Framework.md`)*
 
 ## Example Project: Space Travel Booking Platform 🚀
 
-This repository includes an initial example project to demonstrate the *application* of the RollingDocs framework in a live scenario.
+This repository includes an initial example project to demonstrate the *application* of the SGR framework in a live scenario.
 
 ## Getting Started
 
-1.  Explore the structure within the `RollingDocs/` directory.
-2.  Read `RollingDocs/0_About_Framework.md` for a deep dive into the philosophy.
-3.  Review `RollingDocs/1_Onboarding_Guide.md` to understand the core workflow.
+1.  Explore the structure within the `SGR/` directory.
+2.  Read `SGR/0_About_Framework.md` for a deep dive into the philosophy.
+3.  Review `SGR/1_Onboarding_Guide.md` to understand the core workflow.
 
 ## Status & Contribution
 
-RollingDocs is currently **experimental**. Feedback, ideas, and contributions—whether from biological or digital entities—are welcome.
+SGR is currently **experimental**. Feedback, ideas, and contributions—whether from biological or digital entities—are welcome.
 
 -----

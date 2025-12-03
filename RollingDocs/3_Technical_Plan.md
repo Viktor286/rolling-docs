@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document outlines the technical strategy, architecture, and standards for developing the Space Travel Booking Platform, as defined in `2_Project_Description.md`. It serves as the core technical reference for all contributors working within the RollingDocs framework. All technical implementations must align with this plan unless explicitly overridden by a specific Task Specification.
+This document outlines the technical strategy, architecture, and standards for developing the Space Travel Booking Platform, as defined in `2_Project_Description.md`. It serves as the core technical reference for all contributors working within the SGR framework. All technical implementations must align with this plan unless explicitly overridden by a specific Task Specification.
 
 *(Refer to `1_Onboarding_Guide.md` for the overall development workflow and `4_Global_Tooling.md` for specific tool commands and environment setup.)*
 
@@ -20,7 +20,7 @@ This document outlines the technical strategy, architecture, and standards for d
 
 * **Primary Stack:** Next.js 15 (App Router), React 19, Tailwind CSS (v4), TypeScript.
 * **Package Manager:** pnpm. (See `4_Global_Tooling.md` for usage).
-* **Folder Structure:** Source code in `src/`, organized by features/components. Framework documentation in `RollingDocs/`. Operational task tracking in `RollingDocs/Tasks/`.
+* **Folder Structure:** Source code in `src/`, organized by features/components. Framework documentation in `SGR/`. Operational task tracking in `SGR/Tasks/`.
 * **Component Areas:** Defined in `2_Project_Description.md`. Initially focused on **Frontend**. Technical approaches for future areas (Backend, API, Data Layer) will be added here as needed.
 
 ### 3.2. Key Architectural Decisions
